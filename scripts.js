@@ -42,8 +42,8 @@ window.addEventListener("load", () => {
           iconImg.src = iconUrl;
           loc.textContent = `${place}`;
           desc.textContent = `${description}`;
-          tempC.textContent = `${temp.toFixed(2)} °C`;
-          tempF.textContent = `${fahrenheit.toFixed(2)} °F`;
+          tempC.textContent = `${temp.toFixed(0)} °C`;
+          tempF.textContent = `${fahrenheit.toFixed(0)} °F`;
           sunriseDOM.textContent = `${sunriseGMT.toLocaleDateString()}, ${sunriseGMT.toLocaleTimeString()}`;
           sunsetDOM.textContent = `${sunsetGMT.toLocaleDateString()}, ${sunsetGMT.toLocaleTimeString()}`;
         });
